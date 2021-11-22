@@ -1,0 +1,271 @@
+@mixin paralax-bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 500;
+}
+
+@mixin h1setup {
+  font-family: "Poppins", sans-serif;
+  font-size: $h1-font-size;
+}
+
+/* Social Networks Icon Size */
+
+@mixin social-img {
+  width: 40px;
+}
+
+@mixin social-img-sm {
+  width: 40px;
+}
+
+@mixin social-img-md {
+  width: 45px;
+}
+@mixin social-img-lg {
+  width: 45px;
+}
+
+@mixin social-img-xl {
+  width: 50px;
+}
+
+@mixin social-img-xxl {
+  width: 55px;
+}
+
+/* Author Image Size */
+
+@mixin author-img {
+  margin: 0 auto;
+  width: 250px;
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@mixin author-img-sm {
+  width: 250px;
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin: 0 auto;
+}
+
+@mixin author-img-md {
+  width: 300px;
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@mixin author-img-lg {
+  width: 300px;
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@mixin author-img-xl {
+  width: 350px;
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@mixin author-img-xxl {
+  width: 400px;
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Section Text Size */
+
+@mixin p-text {
+  font-size: 1.2rem;
+  /*   margin-right: 15px; */
+  margin-top: 30px;
+}
+
+@mixin p-text-sm {
+  font-size: 1.4rem;
+  /*  margin-right: 15px; */
+  margin-top: 30px;
+}
+
+@mixin p-text-md {
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+@mixin p-text-lg {
+  font-size: 1.4rem;
+  margin-right: 15px;
+}
+
+@mixin p-text-xl {
+  font-size: 1.6rem;
+  margin-right: 15px;
+}
+
+@mixin p-text-xxl {
+  font-size: 1.8rem;
+  margin-right: 15px;
+}
+
+/* Card Image Size */
+
+@mixin card-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+@mixin card-img-sm {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+@mixin card-img-md {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  padding: 10px;
+}
+@mixin card-img-lg {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 10px;
+}
+@mixin card-img-xl {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  padding: 10px;
+}
+@mixin card-img-xxl {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Card Size */
+
+@mixin card-size {
+  width: 12rem;
+
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+@mixin card-size-sm {
+  width: 15rem;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+@mixin card-size-md {
+  width: 20rem;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+@mixin card-size-lg {
+  width: 20rem;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+@mixin card-size-xl {
+  width: 22rem;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+@mixin card-size-xxl {
+  width: 23rem;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+/* Crad Title Size */
+
+@mixin card-title {
+  font-size: 1.2rem;
+}
+
+@mixin card-title-sm {
+  font-size: 1.5rem;
+}
+
+@mixin card-title-md {
+  font-size: 1.8rem;
+}
+
+@mixin card-title-xxl {
+  font-size: 2rem;
+}
+
+/* Crad Text */
+
+@mixin card-text {
+  font-size: 0.8rem;
+  margin-right: 15px;
+}
+
+@mixin card-text-sm {
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+@mixin card-text-md {
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+@mixin card-text-lg {
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+@mixin card-text-xl {
+  font-size: 1.4rem;
+  margin-right: 15px;
+}
+
+@mixin card-text-xxl {
+  font-size: 1.4rem;
+  margin-right: 15px;
+}
+
+/* Soundcloud Embeed */
+
+@mixin soundcloud-embeed {
+  height: 180px;
+}
+@mixin soundcloud-embeed-sm {
+  height: 180px;
+}
+@mixin soundcloud-embeed-md {
+  height: 180px;
+}
+@mixin soundcloud-embeed-lg {
+  height: 200px;
+}
+@mixin soundcloud-embeed-xl {
+  height: 200px;
+}
+@mixin soundcloud-embeed-xxl {
+  height: 250px;
+}
