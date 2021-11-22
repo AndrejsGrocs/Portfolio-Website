@@ -1,6 +1,6 @@
-```Html Sass Portfolio website.
+```Html Sass Portfolio website.```
 
-Available here```
+Available here
 
-https://jolly-poitras-22797b.netlify.app/
+```https://jolly-poitras-22797b.netlify.app/```
 
